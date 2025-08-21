@@ -1,0 +1,19 @@
+/* CRIAÇÃO DA CONSTANTE QUE REPRESENTA O NOME DO BANCO DE DADOS: */
+// const database = 'BD3-AULA';
+
+/* CRIAÇÃO DA CONSTANTE QUE REPRESENTA O NOME DA COLEÇÃO DE ARQUIVOS: */
+//'LIVRARIA'; const collection
+
+ /* DEFINE O BANCO DE DADOS QUE SERÁ UTILIZADO, CASO NÃO EXISTA SERÁ CRIADO: */
+//use(database);
+
+
+/* SELECIONA OS DADOS DE TODOS OS ARQUIVOS SEM CRITÉRIO: */
+ //db['LIVRARIA'].find();
+
+
+ /* SELECIONA ARQUIVOS COM DADOS DE ACORDO COM A CATEGORIA DEFINIDA: */
+ //db['LIVRARIA'].find({"categoria": "Fantasia Heroica"});
+
+ /*SELECIONA ARQUVIOS COM DADOS DE ACORDDO COM A CATEGORIA DEFINIDA E OCULTANDO CERTOS CAMPOS: */
+ //db['LIVRARIA'].find({"categoria": "Fantasia Heroica"}, {"_id": 0, "codigo": 0, "descricao": 0});

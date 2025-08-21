@@ -1,0 +1,24 @@
+/* CRIAÇÃO DA CONSTANTE QUE REPRESENTA O NOME DO BANCO DE DADOS: */
+// const database = 'BD3-AULA';
+
+/* CRIAÇÃO DA CONSTANTE QUE REPRESENTA O NOME DA COLEÇÃO DE ARQUIVOS: */
+//'LIVRARIA'; const collection
+
+ /* DEFINE O BANCO DE DADOS QUE SERÁ UTILIZADO, CASO NÃO EXISTA SERÁ CRIADO: */
+//use(database);
+
+/* ATUALIZAÇÃO DE UM ARQUIVO NO MONGODB: */
+
+/*
+db['LIVRARIA'].updateOne(
+  {"codigo": 1}, // FILTRO PARA LOCALIZAR O ARQUIVO A SER ATUALIZADO
+  {
+    $set: { // OPERAÇÃO DE ATUALIZAÇÃO
+      "titulo": "TESTE DE ALTERAÇÃO DE TITULO",}}
+);
+ */
+
+//  /* EXCLUIR UM ARQUIVO NO MONGODB*/
+//  db['LIVRARIA'].deleteOne(
+//   {"codigo": 1} // FILTRO PARA LOCALIZAR O ARQUIVO A SER EXCLUÍDO
+// );
